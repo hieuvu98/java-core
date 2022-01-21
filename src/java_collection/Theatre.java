@@ -12,13 +12,7 @@ public class Theatre {
     static final Comparator<Seat> PRICE_ORDER = new Comparator<Seat>() {
         @Override
         public int compare(Seat seat1, Seat seat2) {
-            if(seat1.getPrice() < seat2.getPrice()) {
-                return -1;
-            } else if(seat1.getPrice() > seat2.getPrice()) {
-                return 1;
-            } else {
-                return 0;
-            }
+            return Double.compare(seat1.getPrice(), seat2.getPrice());
         }
     };
 
