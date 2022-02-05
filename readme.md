@@ -1,5 +1,5 @@
 # Basic Java
-
+![Roadmap](https://github.com/hieuvu98/java-basics/blob/master/images/java-developer-roadmap.png?raw=true)
 ## Java Collection Framework
 ### Interfaces of Collections FrameWork
 ![Image](https://github.com/hieuvu98/java-basics/blob/master/images/collection-framework-hierarchy-in-java.jpg?raw=true)
@@ -32,3 +32,4 @@ V - the type of mapped values
 
 ### Set Interface
 - Set là một collection không thể chứa các phần tử trùng lặp
+- 
