@@ -32,4 +32,15 @@ V - the type of mapped values
 
 ### Set Interface
 - Set là một collection không thể chứa các phần tử trùng lặp
+- Set được triển khai bởi HashSet, LinkedHashset, Treeset hoặc EnumSet
+- Các phương thức hay dùng của Set:
 - 
+| Phương thức                               | Mô tả                                                                     |
+|:------------------------------------------|:--------------------------------------------------------------------------|
+| boolean add(Object element)               | Chèn các phần tử vào Set.                                                 |
+| boolean addAll(Collection<? extends E> c) | Chèn tất cả các phần tử từ collection c vào Set                           |
+| void clear()                              | Xóa tất cả các phần tử trong Set                                          |
+| boolean 	contains(Object o)               | Trả về true nếu tập hợp này chứa phần tử đã chỉ định.                     |
+| boolean 	containsAll(Collection<?> c)     | Trả về true nếu set chứa tất cả các phần tử của collection c đã chỉ định. |
+| boolean 	equals(Object o)                 | So sánh các đối tượng được chỉ định với set.                              |
+| int 	hashCode()                           | Trả về giá trị mã băm                                                     |
