@@ -6,7 +6,7 @@ import java.util.Set;
 public class HeavenlyBody {
     private final String name;
     private final double orbitalPeriod;
-    private final Set<HeavenlyBody>satellites;
+    private final Set<HeavenlyBody> satellites;
 
     public HeavenlyBody(String name, double orbitalPeriod) {
         this.name = name;
@@ -20,5 +20,13 @@ public class HeavenlyBody {
 
     public double getOrbitalPeriod() {
         return orbitalPeriod;
+    }
+
+    public boolean addMoon(HeavenlyBody moon) {
+        return this.satellites.add(moon);
+    }
+
+    public Set<HeavenlyBody> getSatellites() {
+        return new HashSet<>(satellites);
     }
 }

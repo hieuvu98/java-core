@@ -30,11 +30,13 @@ V - the type of mapped values
 | V remove(Object key)                     | Trả về Value và xóa một phần tử có key được chỉ định ra khỏi Map                               |
 | V replace(K key, V value)                | Thay thế value liên kết với Key được chỉ định bằng một value mới                               |
 
+#### Class HashMap<K,V>
+
 ### Set Interface
 - Set là một collection không thể chứa các phần tử trùng lặp
 - Set được triển khai bởi HashSet, LinkedHashset, Treeset hoặc EnumSet
 - Các phương thức hay dùng của Set:
-- 
+
 | Phương thức                               | Mô tả                                                                     |
 |:------------------------------------------|:--------------------------------------------------------------------------|
 | boolean add(Object element)               | Chèn các phần tử vào Set.                                                 |
