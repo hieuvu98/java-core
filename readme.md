@@ -1,5 +1,6 @@
 # Basic Java
 ![Roadmap](https://github.com/hieuvu98/java-basics/blob/master/images/java-developer-roadmap.png?raw=true)
+## OOP
 ## Java Collection Framework
 ### Interfaces of Collections FrameWork
 ![Image](https://github.com/hieuvu98/java-basics/blob/master/images/collection-framework-hierarchy-in-java.jpg?raw=true)
@@ -30,8 +31,6 @@ V - the type of mapped values
 | V remove(Object key)                     | Trả về Value và xóa một phần tử có key được chỉ định ra khỏi Map                               |
 | V replace(K key, V value)                | Thay thế value liên kết với Key được chỉ định bằng một value mới                               |
 
-#### Class HashMap<K,V>
-
 ### Set Interface
 - Set là một collection không thể chứa các phần tử trùng lặp
 - Set được triển khai bởi HashSet, LinkedHashset, Treeset hoặc EnumSet
@@ -46,3 +45,18 @@ V - the type of mapped values
 | boolean 	containsAll(Collection<?> c)     | Trả về true nếu set chứa tất cả các phần tử của collection c đã chỉ định. |
 | boolean 	equals(Object o)                 | So sánh các đối tượng được chỉ định với set.                              |
 | int 	hashCode()                           | Trả về giá trị mã băm                                                     |
+
+### hashcode() & equals()
+
+## Exception
+## I/O
+## String
+## Thread
+## JDBC
+JDBC (Java Database Connectivity) là một API để kết nối và thực thi truy vấn cơ sở dữ liệu. JDBC API sử dụng JDBC driver
+để kết nối với database. Có 4 loại JDBC driver:
+- JDBC-ODBC Bridge Driver,
+- Native Driver,
+- Network Protocol Driver, and
+- Thin Driver
+![Image](https://github.com/hieuvu98/java-basics/blob/master/images/java-database-connectivity-jdbc-1024x576.jpg?raw=true)
