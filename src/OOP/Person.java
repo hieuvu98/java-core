@@ -46,4 +46,9 @@ public class Person {
     {
         return age > 12 && age < 20 ? true : false;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
