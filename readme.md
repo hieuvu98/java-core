@@ -1,6 +1,14 @@
 # Basic Java
 ![Roadmap](https://github.com/hieuvu98/java-basics/blob/master/images/java-developer-roadmap.png?raw=true)
 ## OOP
+### Class
+### Methods
+#### getClass()
+#### Constructor
+#### hashCode() & equals() & toString()
+#### clone() & finalize()
+#### POJO
+### Inheritance
 ## Java Collection Framework
 ### Interfaces of Collections FrameWork
 ![Image](https://github.com/hieuvu98/java-basics/blob/master/images/collection-framework-hierarchy-in-java.jpg?raw=true)
@@ -60,3 +68,4 @@ JDBC (Java Database Connectivity) là một API để kết nối và thực thi
 - Network Protocol Driver, and
 - Thin Driver
 ![Image](https://github.com/hieuvu98/java-basics/blob/master/images/java-database-connectivity-jdbc-1024x576.jpg?raw=true)
+
